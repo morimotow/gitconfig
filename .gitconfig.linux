@@ -1,0 +1,8 @@
+[include]
+    path = gitconfig/.gitconfig.local
+    path = gitconfig/.gitconfig.alias
+[core]
+    excludesfile = gitconfig/.gitignore_global
+    quotepath = false
+    autoCRLF = false
+    filemode = false

@@ -1,0 +1,11 @@
+[merge]
+    tool = winmerge
+[mergetool "winmerge"]
+    path = \"/mnt/c/Program Files/WinMerge/WinMergeU.exe\"
+    cmd  = \"/mnt/c/Program Files/WinMerge/WinMergeU.exe\" /m /r=\"$MERGED\" \"$LOCAL\" \"$BASE\" \"$REMOTE\"
+[diff]
+    tool = winmerge
+    guitool = winmerge
+[difftool "winmerge"]
+    path = \"/mnt/c/Program Files/WinMerge/WinMergeU.exe\"
+    cmd  = \"/mnt/c/Program Files/WinMerge/WinMergeU.exe\" -e -u -r -ub -dl \"Base\" -dr \"Mine\" \"$LOCAL\" \"$REMOTE\"

@@ -1,0 +1,9 @@
+*~
+~$*
+.DS_Store
+.local.vimrc
+.tern-project
+.jshintrc
+tags
+tags.txt
+*_back.xls
