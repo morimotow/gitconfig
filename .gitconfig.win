@@ -7,3 +7,4 @@
     quotepath = false
     autoCRLF = false
     filemode = false
+    pager = LESSCHARSET=utf-8 less
