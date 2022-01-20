@@ -1,10 +1,10 @@
 [include]
-    path = gitconfig/.gitconfig.local
-    path = gitconfig/.gitconfig.alias
+	path = ~/gitconfig/.gitconfig.local
+	path = ~/gitconfig/.gitconfig.alias
     path = gitconfig/.gitconfig.winmerge.windows
 [core]
-    excludesfile = gitconfig/.gitignore_global
-    quotepath = false
-    autoCRLF = false
-    filemode = false
-    pager = LESSCHARSET=utf-8 less
+	excludesfile = ~/gitconfig/.gitignore_global
+	quotepath = false
+	autoCRLF = false
+	filemode = false
+	pager = LESSCHARSET=utf-8 less

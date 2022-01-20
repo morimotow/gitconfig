@@ -1,7 +1,7 @@
 [include]
-    path = gitconfig/.gitconfig.local
-    path = gitconfig/.gitconfig.alias
-    path = gitconfig/.gitconfig.winmerge.wsl
+    path = ~/gitconfig/.gitconfig.local
+    path = ~/gitconfig/.gitconfig.alias
+    path = ~/gitconfig/.gitconfig.winmerge.wsl
 [core]
     excludesfile = gitconfig/.gitignore_global
     quotepath = false
