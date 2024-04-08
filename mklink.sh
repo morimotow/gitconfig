@@ -9,6 +9,8 @@ if [ "$(uname)" == 'Darwin' ]; then
 elif [ "$(expr substr $(uname -s) 1 5)" == 'Linux' ]; then
     if [ $(echo `uname -r` | grep -i 'Microsoft') ]; then
         OSENV='WSL'
+    elif [ $(echo `uname -r` | grep -i 'microsoft-standard-WSL2') ]; then
+        OSENV='WSL'
     else
         OSENV='Linux'
     fi
